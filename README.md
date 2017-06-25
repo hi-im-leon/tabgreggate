@@ -1,4 +1,5 @@
 <h1>Tabgreggate: Smart Tab Aggregator</h1>
+<img src="https://github.com/hi-im-leon/tabgreggate/blob/master/Tabgreggate/assets/tabgreggate_icon.png?raw=true">
 <b>How to use:</b>
 <ol>
     <li>Download this FOSS extension and have a copy on your desktop.</li>
