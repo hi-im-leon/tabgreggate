@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Tabgreggate",
+    "author": "Leon Chen",
+    "description": "Tab aggregator that groups similar tabs together intelligently.",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "assets/tabgreggate_icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Aggregate my tabs!"
+    },
+
+    "background": {
+        "scripts": ["tabgreggate.js"],
+        "persistent": false
+    },
+
+    "options_page": "options.html",
+
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage",
+        "unlimitedStorage",
+        "contextMenus"
+    ]
+}

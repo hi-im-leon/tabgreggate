@@ -1,0 +1,30 @@
+<!-- 
+Tabgreggate v1.0
+Created by: Leon Chen
+Swiss army knife for dealing with Google Chrome tabs. Provides tab usage analytics, quick tab
+collation and removal. 
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tabgreggate Popup</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <link href="popup.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <div id="main-screen-wrapper">
+      <h1 id="header">Currently you have <span id="num_tabs"></span> tabs.</h1>
+        <div id="menu">
+          <button id="collate">Collate</button>
+          <button id="analytics">Analytics</button>
+        </div>
+        <img src="assets/downarrow.png" id="view_more">
+        <span id="button_helper_text">View All Tabs</span>
+      <div id="tabs_collection"></div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>
+

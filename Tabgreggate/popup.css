@@ -1,0 +1,80 @@
+/* CSS associated with Tabgreggate popup */
+
+body, button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 100%;
+}
+
+body {
+  height: 100px;
+  width: 600px;
+}
+
+h1#header {
+  text-align: center;
+}
+
+span#num_tabs {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+button {
+  display: inline-block;
+  background-color: #DDDDDD;
+  text-decoration: none;
+  height: 50px;
+  width: 150px;
+  margin: 0 10px;
+  border: none;
+  transition: opacity 0.4s linear;
+}
+
+img#view_more {
+  margin: 0 auto;
+  display: block;
+  padding: 25px;
+  height: 40px;
+  width: 40px;
+  transition: opacity 0.4s linear;
+}
+
+button:hover, img#view_more:hover {
+  opacity: 0.5;
+}
+
+img#view_more:hover span#button_helper_text {
+  visibility: visible;
+}
+
+div#main-screen-wrapper {
+  text-align: center;
+}
+
+div#tabs_collection {
+  text-align: left;
+  display: none;
+}
+
+div#menu {
+  bottom-padding: 25px;
+}
+
+span#button_helper_text {
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.rotate-180 { 
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
