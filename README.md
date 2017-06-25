@@ -11,7 +11,7 @@
 <h2>The What</h2>
 A tab collator that allows for quick and easy deletion.
 <h2>The Why</h2>
-The modern web browser is the ultimate hoarder's paradise. Every time any remotely interesting content is proferred, you have the ability to click on it and say, "maybe later". When that later comes, however, (sometimes uninvitedly) you're daunted by the task of finding what you need at that exact moment.<br> 
+The modern web browser is the ultimate hoarder's paradise. Every time any remotely interesting content is proferred, you have the ability to click on it and say, "maybe later". When that later comes, however, (sometimes uninvitedly) you're daunted by the task of finding what you need at that exact moment.<br><br>
 <center><b><i>Shoot, where is that flight confirmation again?</i> Or, <i> where was that email I was working on?</i></b></center>
 <br><br>
 What can you do besides meticulously cull through your tabs, and maybe get some context clues from the icons of where that thing you're looking for <i>might</i> be? Luckily, life doesn't have to be this way. This extension is here to extirpate trash Facebook, LinkedIn, Google Search, and social media tabs all at once. I hope that this project extends beyond just helping people open/close tabs.
